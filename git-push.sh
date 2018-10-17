@@ -10,5 +10,6 @@ git checkout -b prd-deploy
 
 git checkout  prd-deploy
 git status
+git commit -m "$(date +%F_%H:%M:%S) commit"
 git add .
 git push -f -u origin prd-deploy
