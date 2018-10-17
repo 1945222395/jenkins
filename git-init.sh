@@ -1,6 +1,6 @@
 #! /bin/bash
 git remote rm origin
-git init
+git init .
 git add .
 git status
 git commit -m "$(date +%F_%H:%M:%S) commit"
