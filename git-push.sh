@@ -7,7 +7,7 @@ git config credential.helper store
 git checkout  old-version-deploy-scripts
 git checkout -b  old-version-deploy-scripts
 }
-git-branch
+#git-branch
 git checkout  old-version-deploy-scripts
 git checkout -b  old-version-deploy-scripts
 git commit -m "$(date +%F_%H:%M:%S) commit"
